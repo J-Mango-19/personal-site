@@ -1,0 +1,10 @@
+.right-img{
+    float: right;
+    margin-left: 10px;
+}
+
+#resumeLink {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
