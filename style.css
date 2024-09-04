@@ -1,10 +1,27 @@
-.right-img{
-    float: right;
-    margin-left: 10px;
-}
+
 
 #resumeLink {
     color: blue;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between; /* Space between images */
+    align-items: center;
+    margin: 20px; /* Optional margin around the image row */
+}
+
+.image-row img {
+    /* flex: 1; /* Ensures all images take equal width */
+    margin: 0 10px; /* Optional margin between images */
+}
+
+.image-row img:first-child {
+    margin-left: 0; /* Removes left margin from the first image */
+}
+
+.image-row img:last-child {
+    margin-right: 0; /* Removes right margin from the last image */
 }
